@@ -49,4 +49,4 @@ COPY ./backend/api /backend/api
 COPY --from=build /frontend/dist/ /frontend
 
 #ENTRYPOINT /backend/start.sh
-CMD [`docker compose up -d`]
+CMD `docker compose up -d`
