@@ -24,7 +24,7 @@
             "isAdmin": true
         },
         {
-            "name": "demo",
+            "name": "default",
             "password": "ayondemouser",
             "defaultRoles": ["artist", "viewer"],
             "fullName": "Demo user"
@@ -32,7 +32,7 @@
         {
             "name": "service",
             "apiKey": "veryinsecurapikey",
-            "isService": true
+            "isService": "default"
         }
     ]
 }
