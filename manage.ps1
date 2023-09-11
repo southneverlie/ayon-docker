@@ -124,6 +124,6 @@ function main {
     Write-Host "Unknown function ""$FunctionName"""
     defaultfunc
   }
-}
+}  
 
-main
+Run $make -eq"setup"
